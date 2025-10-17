@@ -1,8 +1,6 @@
 /* Pepsi-Website */
 *{
 margin: 0;
-padding: 0;
-box-sizing: border-box;
 scroll-behavior: smooth;
 }
 body{
@@ -11,8 +9,8 @@ body{
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    padding: 20px 40px;
-    overflow: hidden;
+    padding-top: 20px;
+    
 }
 /* Navigation-bar */
 nav{
