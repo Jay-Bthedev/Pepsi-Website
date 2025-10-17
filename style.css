@@ -1,0 +1,122 @@
+/* Pepsi-Website */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+body{
+    background-color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 20px 40px;
+    overflow: hidden;
+    min-height: 100vh;
+}
+/* Navigation-bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    opacity: 0.7;
+}
+
+/* nav-left */
+.nav-left{
+    display: flex;
+    gap: 20px;
+}
+
+/* Main */
+main{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;    
+}
+.my{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.h{
+  text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.356);  
+  font-weight: 600;
+  display: inline-block;
+  max-width: 440px;
+  font-size: 70px;
+  text-align: start;
+   
+}
+.h1{
+    text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.356);
+      max-width: 440px;
+   text-align: start;
+   font-weight: 100;
+}
+main button{
+    border-radius: 20px;
+    height: 30px;
+    width: 180px;
+    border-color: grey;
+}
+.white{
+    height: 300px;
+}
+.right{
+display: flex;
+}
+.icon{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media (max-width:830px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+.bluepep{
+    height: 60px;
+    width: 90px;
+    cursor: pointer;
+}
+.bluepep:hover{
+    transform: scale(1.2);
+}
+.whitepep{
+    height: 55px;
+    width: 75px;
+    cursor: pointer;
+}
+.whitepep:hover{
+     transform: scale(1.2);
+}
+.blackpep{
+    height: 70px;
+    width: 100px;
+    cursor: pointer;
+}
+.blackpep:hover{
+     transform: scale(1.2);
+}
+.si{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
