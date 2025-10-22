@@ -1,3 +1,8 @@
+/* Pepsi-Website */
+*{
+margin: 0;
+scroll-behavior: smooth;
+}
 body{
     background-color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -5,8 +10,9 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    
 }
-
+/* Navigation-bar */
 nav{
     display: flex;
     align-items: center;
@@ -16,18 +22,64 @@ nav{
 a{
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 a:hover{
     opacity: 0.7;
 }
+
+/* nav-left */
+.nav-left{
+    display: flex;
+    gap: 20px;
+}
+
+/* ham-burger */
+.ham{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ham-burger{
+    display: none;
+}
+.ham-burger{
+    width: 30px;
+    height: 2.5px;
+    background-color: white;
+}
+
+/* Main */
 main{
     padding-top: 20px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
+}
+.my{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.h{
+  text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.356);  
+  font-weight: 600;
+  display: inline-block;
+  max-width: 440px;
+  font-size: 70px;
+  text-align: start;
+   
+}
+.h1{
+    text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.356);
+      max-width: 440px;
+   text-align: start;
+   font-weight: 100;
 }
 main button{
-    
+    border-radius: 20px;
+    height: 30px;
+    width: 180px;
+    border-color: grey;
 }
 .white{
     height: 300px;
@@ -44,25 +96,56 @@ display: flex;
 @media (max-width:830px) {
     main{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        gap: 20px;
     }
+    .ham-burger{
+        display: block;
+    }
+    .nav-left{
+        display: none;
+    }
+  
 }
 .bluepep{
     height: 60px;
     width: 90px;
+    cursor: pointer;
+}
+.bluepep:hover{
+    transform: scale(1.2);
 }
 .whitepep{
     height: 55px;
     width: 75px;
+    cursor: pointer;
+}
+.whitepep:hover{
+     transform: scale(1.2);
 }
 .blackpep{
     height: 70px;
     width: 100px;
+    cursor: pointer;
+}
+.blackpep:hover{
+     transform: scale(1.2);
 }
 .si{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 40px;
 
 }
-
+@media (max-width:320px) {
+  .right{
+        display: block;
+    }
+    .icon{
+        display: flex;
+        flex-direction: row;
+        width: 40px;
+        justify-self: center;
+    }
+}
