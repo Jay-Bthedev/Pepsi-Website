@@ -8,6 +8,13 @@ var mainSelector = document.querySelector("body");
 var white = document.getElementById("whiteimg");
 var message = document.getElementById("text");
 
+const toggleBtn = document.getElementById("menu");
+const sidebar = document.getElementById("sidebar");
++
+toggleBtn.addEventListener("click", () => {
+  sidebar.classList.toggle("active");
+});
+
 
 blue.addEventListener("click", function(){
 mainSelector.style.backgroundColor = "blue";
