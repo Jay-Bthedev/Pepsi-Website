@@ -126,6 +126,7 @@ display: flex;
       transition: left 0.3s ease;
       top: 0;
       display: block;
+      padding-top: 40px;
     }
    
 
