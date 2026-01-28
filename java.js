@@ -1,4 +1,4 @@
-alert("Welcome to Pepsi's Website");
+// alert("Welcome to Pepsi's Website");
 
 
 var blue = document.querySelector(".bluepep");
@@ -11,6 +11,7 @@ var nav = document.querySelector("nav")
 
 const toggleBtn = document.getElementById("menu");
 var sidebar = document.getElementById("sidebar");
+var contact = document.getElementById("contact-body")
 +
 toggleBtn.addEventListener("click", () => {
   sidebar.classList.toggle("active");

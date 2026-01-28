@@ -109,13 +109,13 @@ display: flex;
 @media (max-width:600px) {
     nav{
         position: fixed;
-        width: 100%;
+        width: 95%;
         background-color: red;
         box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.168);
-        justify-items: center;
         justify-self: center;
-       justify-content: space-between;
- 
+        padding-left: 10px;
+        padding-right: 10px;
+      
        
        
        
@@ -195,3 +195,6 @@ display: flex;
       justify-self: center;
     }
 }
+
+
+/* Contact Page */
